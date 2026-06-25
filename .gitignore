@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment Variables
+.env
+.env.local
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.conda/
+.venv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Specific Data & Huge Files
+data/*
+!data/processed/
+
+outputs/*
+!outputs/summarization/
+outputs/summarization/*
+!outputs/summarization/final/
+
+models/
+
+# (We rely on Git LFS to track *.safetensors and *.bin in the whitelisted folders)
+*.pt
+*.pth
+
+# React / Node.js
+web/node_modules/
+web/dist/
+web/.npm/
+npm-debug.log*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
