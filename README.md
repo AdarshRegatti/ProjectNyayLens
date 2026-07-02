@@ -1,4 +1,4 @@
-# ⚖️ NyayLens: Agentic Legal AI Platform
+# ⚖️ Project NyayLens: Agentic Legal AI Platform
 
 NyayLens is an advanced, production-ready AI legal research platform designed specifically for the complexities of the Indian legal system. By moving beyond generic wrapper apps, NyayLens utilizes a **Hybrid RAG architecture**, **two-stage local summarization**, and a **custom FastAPI Agentic Router** to reduce hours of legal research into a few minutes of verifiable, hallucination-free reading.
 
